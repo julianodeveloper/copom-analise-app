@@ -168,4 +168,4 @@ def exportar_csv(n):
     return dcc.send_string(buffer.getvalue(), filename=f"dados_{global_data['filename'].replace('.pdf', '')}.csv")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=10000)
