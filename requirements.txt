@@ -1,0 +1,8 @@
+dash
+dash-bootstrap-components
+PyMuPDF
+textblob
+wordcloud
+pillow
+pandas
+plotly
